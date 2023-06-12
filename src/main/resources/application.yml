@@ -1,0 +1,12 @@
+server:
+  servlet:
+    context-path: /api
+
+gitlab:
+  properties:
+    client-id: ${GITLAB_CLIENT_ID}
+    client-secret: ${GITLAB_CLIENT_SECRET}
+    redirect-uri: ${GITLAB_REDIRECT_URI}
+    authorization-uri: ${GITLAB_AUTHORIZATION_URI}
+    token-uri: ${GITLAB_TOKEN_URI}
+    user-info-uri: ${GITLAB_USER_INFO_URI}
